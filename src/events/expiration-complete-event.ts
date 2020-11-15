@@ -1,10 +1,10 @@
 import { Subjects } from './subjects';
 
-interface ExpirationCompletedEvent {
+interface ExpirationCompleteEvent {
   subject: Subjects.ExpirationComplete;
   data: {
     positionId: string;
   };
 }
 
-export { ExpirationCompletedEvent };
+export { ExpirationCompleteEvent };
