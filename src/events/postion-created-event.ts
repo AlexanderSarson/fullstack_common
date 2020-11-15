@@ -7,6 +7,7 @@ interface PositionCreatedEvent {
     userId: string;
     longitude: number;
     latitude: number;
+    expiresAt: string;
   };
 }
 
