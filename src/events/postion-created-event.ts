@@ -5,9 +5,12 @@ interface PositionCreatedEvent {
   data: {
     id: string;
     userId: string;
-    longitude: number;
-    latitude: number;
+    location: {
+      type: string;
+      coordinates: number[];
+    };
     expiresAt: string;
+    version: number;
   };
 }
 
