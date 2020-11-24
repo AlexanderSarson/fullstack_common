@@ -6,6 +6,7 @@ interface PositionCreatedEvent {
     id: string;
     userId: string;
     coordinates: number[];
+    expiresAt: string;
     version: number;
   };
 }
