@@ -5,11 +5,7 @@ interface PositionCreatedEvent {
   data: {
     id: string;
     userId: string;
-    location: {
-      type: string;
-      coordinates: number[];
-    };
-    expiresAt: string;
+    coordinates: number[];
     version: number;
   };
 }
