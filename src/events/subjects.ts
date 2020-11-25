@@ -2,7 +2,7 @@ enum Subjects {
   UserCreated = 'user:created',
   UserDeleted = 'user:deleted',
 
-  PositionCreated = 'position:created',
+  PositionExpired = 'position:expired',
   PositionUpdated = 'position:updated',
   PositionDeleted = 'position:deleted',
 
