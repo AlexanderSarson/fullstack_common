@@ -4,6 +4,7 @@ interface PositionExpiredEvent {
   subject: Subjects.PositionExpired;
   data: {
     id: string;
+    version: number;
   };
 }
 
