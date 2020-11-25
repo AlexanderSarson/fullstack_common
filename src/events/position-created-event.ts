@@ -8,6 +8,7 @@ interface PositionCreatedEvent {
     coordinates: number[];
     expiresAt: string;
     version: number;
+    isActive: boolean;
   };
 }
 
